@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 times = 0
 guess = int()
 secret_num = 29
 guess_times = 3
 out_of_guesses = False
-
+att = "attempts"
 while guess != secret_num and not out_of_guesses and guess_times > 0:
     times += 1
     guess_times -= 1
-    att = "attempts"
     if att == 1:
         att = "attempts"
     guess = int(input("Guess a number: "))
@@ -35,7 +33,6 @@ if out_of_guesses:
     print("You lose... Try again next time")
 else:
     print(f"It took you {times} {att} in total...")
-=======
 def game(secret_num, guess_times):
     times = 0
     game_over = False
@@ -66,6 +63,4 @@ def game(secret_num, guess_times):
             print("You got it")
             print(f"It took you {times} {att} in total...")
             game_over = True
-
 game(29, 10)
->>>>>>> 4d99183
