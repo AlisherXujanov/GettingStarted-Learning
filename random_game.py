@@ -8,7 +8,7 @@ def game(secret_num):
     while True:
         guess = int(input("Enter a number please: "))
         times += 1
-
+        
         att = "attempts"
         if times == 1:
             att = "attempt"
