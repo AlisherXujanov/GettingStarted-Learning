@@ -29,4 +29,3 @@ def game(secret_num):
             print(f"It took you {times} {att} in total...")
             break
     # ifyou reach here, it means you ran out of turn
-game(56)
