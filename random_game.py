@@ -5,6 +5,8 @@ def game(secret_num, guess_times):
     while guess_times > times and not game_over: # try using while True:
         # how to get out???
         # one method: return False
+        # another method: use "break" and "continue" within the "while" loop
+        # Homework: get it working with while true, and no return from the function until game is over and you have printed the score
 
         guess = int(input("Enter a number please: "))
         times += 1
